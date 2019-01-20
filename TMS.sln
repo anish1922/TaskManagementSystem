@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4E46FDED-F998-4838-BB20-027FF49605D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5BC51865-C106-474C-AD01-BC5999956CC7}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "TMS", "src\TMS\TMS.xproj", "{AA34BE5D-9D38-4C0C-A086-29C076CDDCCF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA34BE5D-9D38-4C0C-A086-29C076CDDCCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA34BE5D-9D38-4C0C-A086-29C076CDDCCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA34BE5D-9D38-4C0C-A086-29C076CDDCCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA34BE5D-9D38-4C0C-A086-29C076CDDCCF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AA34BE5D-9D38-4C0C-A086-29C076CDDCCF} = {4E46FDED-F998-4838-BB20-027FF49605D1}
+	EndGlobalSection
+EndGlobal
